@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <title>İletişim</title>
+    <script>
+        function FormKontrol() {
+            var adi = document.getElementById("ad").value;
+            var soyadi = document.getElementById("soyad").value;
+            var mail = document.getElementById("mail").value;
+            var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+
+            if (reg.test(mail) == false && mail == "") {
+                alert("Lütfen geçerli bir e-posta adresi giriniz.");
+            }
+
+            else if (adi == "") {
+                alert("Lütfen adınızı giriniz.");
+            }
+            else if (soyadi == "") {
+                alert("Lütfen soyadınızı giriniz.");
+            }
+            else if (mesaj == "") {
+                alert("Lütfen mesajınızı giriniz.");
+            }
+
+
+        }
+    </script>
+</head>
+
+<body class="siyaharkaplan">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg text-white fixed-top">
+        <a href="index.html" class=" navbar-brand">Sarıkaya</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="ozgecmis.html">Özgeçmiş <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="sehrim.html">Şehrim</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="iletisim.html">İletişim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Giriş Yap</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <br><br><br><br>
+
+
+
+    <center>
+        <h2 class="text-white">Bir Mesaj Kadar Uzağındayım.</h2>
+        <br>
+        <br>
+        <form action="iletisimsonuc.php" method="POST">
+            <table>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td><input type="text" id="ad" name="ad" placeholder="Adınız..."></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="text" id="soyad" name="soyad" placeholder="Soyadınız..."></td>
+                    </tr>
+                    <tr>
+                        <td class="text-white">CİNSİYETİNİZ :</td>
+                        <td colspan="2">
+                            <input type="radio" id="kadin" name="cinsiyet" value="kadin">
+                            <label class="text-danger" for="kadin">Kadın</label>
+                            <input type="radio" id="erkek" name="cinsiyet" value="erkek">
+                            <label class="text-primary" for="erkek">Erkek</label>
+                            <input type="radio" id="diger" name="cinsiyet" value="diger">
+                            <label class="text-white" for="other">Cinsiyetimi Bulamadım</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input style="width: 100; height: 20;" type="number" id="yas" name="yas"
+                                placeholder="Yaşınız..." min="5"></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td><input type="email" id="mail" name="mail" placeholder="Mail Adresiniz..."></td>
+                    </tr>
+                    <tr>
+                        <td class="text-white">BENCE SEN:</td>
+                        <td>
+                            <select id="ovgu" name="ovgu">
+                                <option value="Yakışıklısın">ÇOK YAKIŞIKLISIN</option>
+                                <option value="komiksin">ÇOK KOMİKSİN</option>
+                                <option value="Başarılısın">ÇOK BAŞARILISIN</option>
+                                <option value="Yeteneksiz Herifin Tekisin">WEB SİTESİ YAZAMIYORSUN</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td><textarea id="mesaj" name="mesaj" placeholder="Mesajınız..."></textarea></td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" class="sag" name="kaydet" id="kaydet" value="KAYDET"
+                                onclick="FormKontrol()">
+                            <input type="reset" class="sag" name="sil" id="sil" value="TEMİZLE">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form><br>
+    </center>
+
+</body>
+
+</html>

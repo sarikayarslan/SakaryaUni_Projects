@@ -1,0 +1,21 @@
+.siyaharkaplan {
+    background-color: #808080;
+}
+
+.paragraf{
+    font-size: larger;
+    
+}
+.resimboyutu {
+    width: max-content;
+    height: max-content;
+}
+.sol {
+    float: left;
+    margin: 0 0  10px 10px;
+}
+
+.sag {
+    float: right;
+    margin: 0 0 10px 10px;
+}
