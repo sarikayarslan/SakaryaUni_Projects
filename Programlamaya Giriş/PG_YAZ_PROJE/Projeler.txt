@@ -1,0 +1,24 @@
+1
+SuTesisati
+Burva
+Arslancan Sarikaya
+Irem Elveren
+Verildi
+2
+ElektrikTesisati
+Zoren
+Furkan Ozdemir
+Mustafa Alkan
+Verilmedi
+3
+Bina Temeli
+Tkfen
+Eraycan Ozyurt
+Gulay Aydin 
+Verilmedi
+4
+BoyaIsleri
+Celenk Boya
+Dogukan Celenk
+Alperen Kabadayi
+Verilmedi

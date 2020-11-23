@@ -1,0 +1,40 @@
+1
+Beton
+1m3
+5
+Afyon
+2
+Elektrik Kablosu
+1metre
+25
+Ozdemir Tesisat
+3
+Demir
+1Ton
+3750
+Kardemir
+4
+Boya
+1Litre
+50
+Marshall
+5
+Tugla
+1Adet
+2
+Celep Ticaret
+6
+Pimapen
+1 Adet
+250
+Celep Ticaret
+7
+SuBorusu
+1metre
+5
+Borusan
+8
+ElektrikKablosu
+1metre
+10
+CihanElektrik

@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\Arslan\Desktop\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(11,16): warning C4244: '=': 'double' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\Arslan\Desktop\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(82,14): warning C4244: 'bağımsız değişken': 'time_t' - 'unsigned int' dönüşümü; veri kaybı olabilir
+  ConsoleApplication1.vcxproj -> C:\Users\Arslan\Desktop\ConsoleApplication1\Debug\ConsoleApplication1.exe
