@@ -1,0 +1,10 @@
+C:\Users\Arslan S\source\repos\B181210052_SORU2\bin\Debug\B181210052_SORU2.exe.config
+C:\Users\Arslan S\source\repos\B181210052_SORU2\bin\Debug\B181210052_SORU2.exe
+C:\Users\Arslan S\source\repos\B181210052_SORU2\bin\Debug\B181210052_SORU2.pdb
+C:\Users\Arslan S\source\repos\B181210052_SORU2\obj\Debug\B181210052_SORU2.csprojAssemblyReference.cache
+C:\Users\Arslan S\source\repos\B181210052_SORU2\obj\Debug\B181210052_SORU2.Form1.resources
+C:\Users\Arslan S\source\repos\B181210052_SORU2\obj\Debug\B181210052_SORU2.Properties.Resources.resources
+C:\Users\Arslan S\source\repos\B181210052_SORU2\obj\Debug\B181210052_SORU2.csproj.GenerateResource.cache
+C:\Users\Arslan S\source\repos\B181210052_SORU2\obj\Debug\B181210052_SORU2.csproj.CoreCompileInputs.cache
+C:\Users\Arslan S\source\repos\B181210052_SORU2\obj\Debug\B181210052_SORU2.exe
+C:\Users\Arslan S\source\repos\B181210052_SORU2\obj\Debug\B181210052_SORU2.pdb
